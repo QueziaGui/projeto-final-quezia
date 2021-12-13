@@ -1,4 +1,4 @@
-import './header.style.css'
+import './header.styles.css'
 
 const Header = (props) => {
 

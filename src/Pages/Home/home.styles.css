@@ -1,0 +1,42 @@
+.texto {
+    height: 280px;
+
+  }
+  .titulo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      color: #0a0a0a;
+      padding-right: 30px;
+  }
+  
+  .texto h3 {
+    text-align: center;
+    text-justify:inherit;
+    margin: 280px auto;
+    width: 550px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1 rem;
+  }
+
+  .imagelogo{
+  margin: 10px;
+  width: 55%;
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .declaracao{
+    align-items: center;
+  }
+; 
+  @media(min-width: 720px){
+    * {
+        font-size: 18px;
+        
+    }
+  }

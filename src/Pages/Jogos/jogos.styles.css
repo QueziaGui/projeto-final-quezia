@@ -2,25 +2,25 @@
     background-color: crimson;
 }
 
-.ong__box {
+.jogo__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    color: #a59e76;
+    color: #63458a;
     padding-right: 30px;
+    background-color: rgb(201, 200, 200);
   }
-.ong__perfil{
+.jogo__perfil{
     padding: 4rem 0;
 }
 
-.ong__box > div {
+.jogo__box > div {
     max-width: 200px;
     margin: 5rem;
 }
 
-.ong__perfil p {
+.jogo__perfil p {
     font-size: 1.5rem;
     margin-top: 1rem;
 }
-

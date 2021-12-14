@@ -2,9 +2,10 @@
     background-color: rgb(226, 198, 174);
     color: #e75322;
     text-align: center;
-    height: 50px;
+    height: 100%;
+    width: 100%;
+    display:flex;
     left: 0;
     bottom: 0;
-    width: 100%;
-    padding-top: 10px;
-  }
+    padding-top: 12px;
+}

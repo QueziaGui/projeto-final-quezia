@@ -1,7 +1,16 @@
 .texto {
     height: 280px;
+    margin: 2rem;
 
   }
+
+  .principal{
+    margin: 4%;
+    width: 100%;
+    height: 100%;
+
+  }
+
   .titulo{
       display: flex;
       flex-wrap: wrap;
@@ -33,10 +42,33 @@
   .declaracao{
     align-items: center;
   }
-; 
-  @media(min-width: 720px){
-    * {
-        font-size: 18px;
-        
-    }
+
+  .saibaMais{
+    padding:5%;
   }
+
+
+  @media (max-width: 420px){
+  .principal{
+    background-color: chocolate;
+    width: 100%;
+    height: 100%;
+  }
+
+  .declaracao{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+  }
+
+  .saibaMais{
+    width: 100%;
+    height: 100%;
+  
+  }
+  .cartao{
+  width: 100%;
+  height: 100%;
+  }
+  }
+

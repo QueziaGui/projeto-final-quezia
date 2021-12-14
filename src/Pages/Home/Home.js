@@ -10,7 +10,7 @@ const Home = () => {
     return(
       <>
         <Menu />
-        
+      <div className='principal'> 
         <h1 className='titulo'>Proteção Animal!</h1>
         
         <div>
@@ -60,12 +60,13 @@ const Home = () => {
           </button>
 
         </div>
-        <div>
+        <div className='cartao'>
           <h2>Cartão pet download</h2>
           <a href="http://www.rganimal.com.br/RG/editar-carteira-azul.php" download="newfilename">Download do pdf</a>
         </div>
-      
         <Footer />
+      </div>
+        
       </>
     )
   }

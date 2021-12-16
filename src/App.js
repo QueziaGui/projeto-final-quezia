@@ -1,12 +1,7 @@
-
-import Routes from './Routes/Routes';
+import Rotas from "./Routes";
 
 function App() {
-
-  return (
-    
-    <Routes />
-  );
+  return <Rotas />;
 }
 
 export default App;

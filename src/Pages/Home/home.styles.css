@@ -1,23 +1,26 @@
 .texto {
-    height: 280px;
+    height: 100%;
+    width: 100%;
     margin: 2rem;
 
   }
 
   .principal{
-    margin: 4%;
-    width: 100%;
-    height: 100%;
+    margin: 2%;
+    width: 90%;
+    height: 90%;
+    
 
   }
 
   .titulo{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content:center;
       text-align: center;
       color: #0a0a0a;
-      padding-right: 30px;
+      padding-right: 40px;
+      margin-right: 0;
   }
   
   .texto h3 {
@@ -34,41 +37,58 @@
   margin: 10px;
   width: 55%;
   height: 70vh;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
-  }
+  background-image: -moz-linear-gradient(255 200 155);
+}
 
   .declaracao{
     align-items: center;
+    
   }
 
-  .saibaMais{
+  .button{
     padding:5%;
+    height: 10em;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    cursor: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
   }
 
 
   @media (max-width: 420px){
   .principal{
-    background-color: chocolate;
+
     width: 100%;
     height: 100%;
+    text-align: auto;
+    align-items: center;
+    
   }
 
   .declaracao{
     width: 100%;
     height: 100%;
-    background-color: crimson;
+   align-items: center;
+   
   }
 
-  .saibaMais{
+  .button{
     width: 100%;
     height: 100%;
+    align-items: center;
   
   }
   .cartao{
   width: 100%;
   height: 100%;
+  align-items: center;
   }
   }
 
